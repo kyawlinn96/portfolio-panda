@@ -1,0 +1,20 @@
+@layer tokens {
+    :where(:root, :host) {
+  --colors-primary: #000;
+  --colors-secondary: #facc15;
+  --colors-main-bg: #374151;
+  --fonts-fira: var(--font-fira-code), Melo, monospace;
+  --fonts-mono: var(--font-mono-sans), sans-serif;
+  --breakpoints-sm: 640px;
+  --breakpoints-md: 768px;
+  --breakpoints-lg: 1024px;
+  --breakpoints-xl: 1280px;
+  --breakpoints-2xl: 1536px;
+  --sizes-breakpoint-sm: 640px;
+  --sizes-breakpoint-md: 768px;
+  --sizes-breakpoint-lg: 1024px;
+  --sizes-breakpoint-xl: 1280px;
+  --sizes-breakpoint-2xl: 1536px
+}
+  }
+  
